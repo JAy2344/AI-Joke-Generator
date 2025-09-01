@@ -12,7 +12,7 @@ function tellJoke(response) {
     let prompt = "Tell me a IT support Joke tell me a different joke each time I ask.";
     let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${APIKey}`;
 
-    jokeElement.innerHTML = "😂 Generating a joke... please wait";
+    jokeElement.innerHTML = "⏳Finding the funniest bad joke... please wait";
 
     axios.get(apiURL).then(tellJoke)
       
@@ -37,7 +37,6 @@ document.getElementById("headline").textContent = randomHeadline;
   
 
   let jokeButtonElement = document.querySelector("#joke_btn");
-
   let jokeElement = document.querySelector("#joke");
-      jokeButtonElement.addEventListener("click", generateJoke);
+  jokeButtonElement.addEventListener("click", generateJoke);
 
