@@ -20,12 +20,10 @@ function tellJoke(response) {
   // Array of funny headlines
 const headlines = [
   "😂 Click for a joke that's worse than the Wi-Fi here.",
-  "⚡ Deploy some laughter—click for an IT joke!",
   "💻 Need a byte of humor? Click me!",
   "🖱️ Debug your day with a corny IT joke.",
   "🤖 System alert: Joke incoming. Click to continue...",
   "🐛 Warning: This joke may contain bugs.",
-  "🔥 Click for a joke hotter than your CPU.",
   "😂 Click here for a dad-level IT joke."
 ];
 
